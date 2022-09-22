@@ -1,0 +1,211 @@
+* {
+    padding: 2px;
+    margin: 2px;
+    box-sizing: border-box;
+}
+
+@media (max-width: 800px){
+    #central {
+        flex-direction: column;
+    }
+}
+
+body {
+    font-family: 'Cinzel', serif;
+    background-image: url(https://soydelrojo.com/wp-content/uploads/2021/04/fondo-de-wapp_Mesa-de-trabajo-1-1-scaled-1.jpg);
+    background-size: cover;
+    margin-bottom: 40px;
+}
+
+header {
+    display: flex;
+    background-color: rgb(210, 2, 2);
+    justify-content: space-between;
+    align-items: center;
+    margin: auto;
+}
+
+.Logo-nombre {
+    color: antiquewhite;
+    justify-content: center;
+    align-items: center;
+    font-size: 35px;
+}
+
+nav ul li {
+    display: inline-block;
+    padding: 5px;
+    transition: all ease-in-out 250ms;
+}
+
+ul li a {
+    color: antiquewhite;
+    text-decoration: none;
+}
+
+nav ul li:hover {
+    background: rgba(108, 0, 0, 0.856);
+    border-radius: 45%;
+}
+
+.Bien {
+    color: antiquewhite;
+    font-size: 100px;
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+
+p {
+    color: antiquewhite;
+    justify-content: center;
+    font-size: 20px;
+}
+
+.Inicio {
+    width: 100%;
+}
+
+ul li:hover {
+    transform: scale(1.2);
+}
+
+
+h2 {
+    color: antiquewhite;
+    text-decoration: none;
+    font-size: 80px;
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+img {
+    width: 100%;
+}
+
+.row {
+    display: flex;
+    padding: 10px;
+}
+
+.columna {
+    flex: 25%;
+    padding: 10px;
+
+}
+
+.columna img {
+    margin-top: 5px;
+}
+
+
+.container-form{
+    width: 100%;
+    max-width: 1100px;
+    margin: auto;
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    grid-gap: 60px;
+    margin-top: 100px;
+    color: antiquewhite;
+    justify-content: center;
+    align-items: center;
+}
+
+.container-form h2{
+    margin-bottom: 20px;
+    font-size: 45px;
+    
+}
+
+.container-form p{
+    font-size: 20px;
+    line-height: 1.5;
+    margin-bottom: 35px;
+    justify-content: center;
+    align-items: center;
+}
+
+.container-form a{
+    font-size: 20px;
+    text-decoration: none;
+    display: inline-block;
+    width: 100%;
+    margin-bottom: 20px;
+    color: antiquewhite;
+    font-weight: 800;
+}
+
+.container-form form .Campo, textarea{
+    width: 100%;
+    padding: 20px 20px;
+    font-size: 15px;
+    border: 1px solid rgb(6, 6, 6);
+    margin-bottom: 20px;
+    border-radius: 5px;
+    outline: 0px;
+    color: black;
+    }
+
+.container-form form textarea{
+        max-width: 550px;
+        min-height: 550px;
+        min-height: 150px;
+        max-height: 160px;
+         }
+
+
+
+
+
+footer {
+    background-color: rgb(210, 2, 2);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: auto;
+}
+
+#contenedorfooter {
+    width: 1100px;
+    height: 100px;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#contenedorfooter img {
+    width: 32px;
+    margin-right: 8px;
+
+}
+
+#contenedorfooter img:hover{
+    transform: scale(1.2);
+}
+
+#contenedorfooter a {
+    text-decoration: none;
+}
+
+
+#contenedorfooter nav {
+    color: white;
+    display: flex;
+}
+
+#contenedorfooter ul {
+    list-style: none;
+    margin-left: 56px;
+
+}
+
+.tituloLista {
+    font-weight: 600;
+    margin-bottom: 8px;
+}
+
+#contenedorfooter li {
+    margin-bottom: 4px;
+}
